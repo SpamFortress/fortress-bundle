@@ -1,0 +1,431 @@
+{
+ "files": {
+  "assets/data/brand-abuse-directory.json": {
+   "bytes": 11086,
+   "sha256": "598b7c393d45a1dbdc9207a008804bcfd957d6f3d35faaa3b4ddd2600a25aad7"
+  },
+  "assets/data/brand-domains.json": {
+   "bytes": 8237,
+   "sha256": "add58f3b4164bfb23efd28b688d4e70d6ce0a92570b7503d2d23f4dddd4185af"
+  },
+  "assets/data/broker-catalog.json": {
+   "bytes": 100173,
+   "sha256": "a57a320f6156fdf973413aadbb7130a1ec863ae9ef5602717d380cbc5b09ac6c"
+  },
+  "assets/data/capability-matrix.md": {
+   "bytes": 33076,
+   "sha256": "fad3300d9530064dd68c51bf985b2215486726c15cdeb5575440d2c1a661a419"
+  },
+  "assets/data/caregiver-summary.template.md": {
+   "bytes": 5017,
+   "sha256": "e81935721cb829b5fa7634772d5a52d25b02b73305eb6adf1fa0fb84acde5d02"
+  },
+  "assets/data/elder-defense.md": {
+   "bytes": 1955,
+   "sha256": "3c867ca1ee82763c62458265c4a53f8aa13dda9e27f0841ae0e46d91fafa09b4"
+  },
+  "assets/data/forward-howto.md": {
+   "bytes": 3452,
+   "sha256": "7350d796441b9e56149f5f40749005d0bddb684ae6c409411e1e23bc17e17d71"
+  },
+  "assets/data/fraud-watch-allowlist.json": {
+   "bytes": 14525,
+   "sha256": "3a913cd03d85f627f9cffd81aaa2600967c41f72aa0dd15bded78caab41ea0ab"
+  },
+  "assets/data/geo-packs.md": {
+   "bytes": 17714,
+   "sha256": "b231b1bfc652765c6f1376f46b8673554673a6af9db21bfc4f2c7efdbb0d70cd"
+  },
+  "assets/data/international.json": {
+   "bytes": 136656,
+   "sha256": "3d6734635a0be5f30c5e0c2890ac01397dfb96b8a5c8f5f2aee3b094fe2795d2"
+  },
+  "assets/data/letter-templates.md": {
+   "bytes": 1821,
+   "sha256": "4cb605262a4cdeb64712108fe40c1fb2b13f3770bb7c90ea56bce2bed31b2272"
+  },
+  "assets/data/privacy-catalog.json": {
+   "bytes": 23939,
+   "sha256": "a2e0c4962b15650fb628373b612863bc841a6aebccadffe6a6d98ba5aa245595"
+  },
+  "assets/data/settlements-public.json": {
+   "bytes": 567,
+   "sha256": "07d8dc0ec892bf757d0294a9b7171e68077b3dd1e40512cf12c8b4166e89f50d"
+  },
+  "assets/data/us-states.json": {
+   "bytes": 62010,
+   "sha256": "5937de04cf05b214f7373f3c1a629234808c190f10e16da8987d4a764dfabeb1"
+  },
+  "assets/manifest.json": {
+   "bytes": 2807,
+   "sha256": "f9d78c400e2b2d2636029f0fc7a3ba93ee182e8a88ff048ce17cddd70623cfc2"
+  },
+  "assets/tools/caregiver_state.py": {
+   "bytes": 80497,
+   "sha256": "4475095507a45c9ec371db9e6915176082bac4e798a3fb1a72576c94361fe778"
+  },
+  "assets/tools/deadline-clocks.py": {
+   "bytes": 32840,
+   "sha256": "1cd734da66a5515e4167f28f7bf95d13019571d7cd86f17e966d2a73051859a1"
+  },
+  "assets/tools/enrich-domain.py": {
+   "bytes": 30658,
+   "sha256": "3d93b08bbd793c8bcf0f7313399f93475ce01f57147dcd65c9064867a47c24c3"
+  },
+  "assets/tools/enrich-number.py": {
+   "bytes": 21935,
+   "sha256": "c0f8e9a052bcf61b0b4c8d559641ae76e8c1f894f82e64b1e54f409a1a9383c9"
+  },
+  "assets/tools/extract-identifiers.py": {
+   "bytes": 30146,
+   "sha256": "435e8f34062d19e242a210033b5fb3dc969325e0585278ab4309f9700561e504"
+  },
+  "assets/tools/fortress_bootstrap.py": {
+   "bytes": 14196,
+   "sha256": "82da953a6bb5ca2651690dab1dd1d998ef8438d8b4ec5a247857fdde59c16d50"
+  },
+  "assets/tools/fortress_controller.py": {
+   "bytes": 5435,
+   "sha256": "378d2eff9299b524dc4f8e97c3c74a3c6414ad342cf4a2bfcae386ed860f0c0f"
+  },
+  "assets/tools/fortress_domain.py": {
+   "bytes": 3498,
+   "sha256": "1eb3a92d9f50ebea4e73802f3c43ba776c57605d70ea6f8d906b9e89b3f77250"
+  },
+  "assets/tools/fortress_owner.py": {
+   "bytes": 1231,
+   "sha256": "921c760d7bb08c5a9092d06a8be6a7f5c77a5e0445b529be1a54e1d30eaba221"
+  },
+  "assets/tools/fortress_update.py": {
+   "bytes": 61180,
+   "sha256": "2bc8bb12d6070275c5eab261905f4aeeba1ae71ad3dafe01f22e319a1d040b10"
+  },
+  "assets/tools/inspect-attachment.py": {
+   "bytes": 32533,
+   "sha256": "66db79ee56aa191a63c23597f3333759a58da8384db3190bf2b2ac4ae95af99b"
+  },
+  "assets/tools/label_scan.py": {
+   "bytes": 60635,
+   "sha256": "e1487b4c4cf5a753ba0b702844d57022f7f13d5baea9d90c900dbbaa65606445"
+  },
+  "assets/tools/privacy-watch.py": {
+   "bytes": 7056,
+   "sha256": "556f7a3bd69e5b125d440d4430784bae1d8e250fa1493eccb76e81dfa7386588"
+  },
+  "assets/tools/takedown-drafts.py": {
+   "bytes": 17595,
+   "sha256": "3f712d89fc73746c2b167258fc7370ba9c13c1ec5b40480d0f01fa21f7d1e4d0"
+  },
+  "originals/candidate-email.meta.json": {
+   "bytes": 32679,
+   "sha256": "ebc90141c155f9ef22d3430e7e8fb23c7c55aa660a43d22ecee511955f1ec8ff"
+  },
+  "originals/candidate-phone.meta.json": {
+   "bytes": 31343,
+   "sha256": "dbb8546d2e9367b5d28be812504bbeaceb8e626cc2c8faa4c31b99f2bf921b1a"
+  },
+  "originals/fortress-data-brokers.skeleton.md": {
+   "bytes": 610,
+   "sha256": "516efffa6a063be397dec88e30eb4bcde5d5e7e6264866078ebfc94517dfb3a5"
+  },
+  "originals/fortress-data-core.skeleton.md": {
+   "bytes": 1748,
+   "sha256": "5c14ecfdb634fdb47581aa97c7ae6ba80b09a34195d099480a91b63c07b09563"
+  },
+  "originals/fortress-data-international.skeleton.md": {
+   "bytes": 420,
+   "sha256": "f62477d67db5fa49c215cf02621cb5f88148b4910f96ce16adbda38c0c3543da"
+  },
+  "originals/fortress-data-us-states.skeleton.md": {
+   "bytes": 421,
+   "sha256": "05aa7319993f1006358a9e8fd25380fadbb8e76cf57cb20238aa2571f09495f4"
+  },
+  "originals/fortress-tools.skeleton.md": {
+   "bytes": 9863,
+   "sha256": "125f9be6d0adb9bd71bb0c7953c2064b6e7eb42883adf3dfc470869ccaf17d16"
+  },
+  "playbooks/7726-and-fcc-packaging.md": {
+   "bytes": 1680,
+   "sha256": "b12cd63f9e58ab9f3a7d0b88d854688dcc9d99aeb8e200d8bf3076c8b3b7575d"
+  },
+  "playbooks/INDEX.md": {
+   "bytes": 23998,
+   "sha256": "bf11bc1663d488c5e5123a1e44192f201eff3513e9998e9497ec666e4453646c"
+  },
+  "playbooks/abused-legit-brand-pack.md": {
+   "bytes": 5257,
+   "sha256": "fa0905ab6468d3da8c86d54eaed74b3a5d769a96b51f4906da886e4b85cda978"
+  },
+  "playbooks/account-company-scrub.md": {
+   "bytes": 1827,
+   "sha256": "f748d90c1531bf11e47f043d4f321e4c7b5c107c1a20a6c61684238e3c2de781"
+  },
+  "playbooks/after-click-loss-recovery.md": {
+   "bytes": 8147,
+   "sha256": "098cc4c967f174bc4e12d1bec1636f68a46a656ec83ad8cd811e827546efbb92"
+  },
+  "playbooks/aol-mail-harden.md": {
+   "bytes": 1323,
+   "sha256": "166063c4883a60179057ca1713134630580dc7bc2803292afa7d8b59ffbdd2fa"
+  },
+  "playbooks/app-tos-data-sale-scrub.md": {
+   "bytes": 1869,
+   "sha256": "61a95421a3547db8f763dfe415c3fe8c1e4bc054dec3e455023f68d52434321d"
+  },
+  "playbooks/apple-mail-harden.md": {
+   "bytes": 6417,
+   "sha256": "add9f099f0d36cda66664d97d64969749513127b75920b8c4cf5761da0e4571d"
+  },
+  "playbooks/calendar-invite-spam.md": {
+   "bytes": 1375,
+   "sha256": "c87adee0a0b70c1fde3cbc66f08dbfee089c6e63e9a66bf81e4a9bc36ebcf0f5"
+  },
+  "playbooks/call-name-and-handoff.md": {
+   "bytes": 1746,
+   "sha256": "6c13419145671202ab56cb2f789ae84b370533df3ecc215b0a8b7234c870997a"
+  },
+  "playbooks/caregiver-view-act.md": {
+   "bytes": 19109,
+   "sha256": "70b7b7400209416bcab933af21eaf07ecba3b71b6f6822db49b2ba37820c6bb6"
+  },
+  "playbooks/carrier-and-ai-call-screening.md": {
+   "bytes": 2667,
+   "sha256": "5c121ce308e86ebd5be4348c19808fb26085fcf6fb9b812417222afea5e9271e"
+  },
+  "playbooks/certified-mail-demand-prep.md": {
+   "bytes": 1467,
+   "sha256": "657745272055e2a00b85ea1d1900e3aba915828474d8e5c4f9ab609eff2eb232"
+  },
+  "playbooks/credit-freeze-planner.md": {
+   "bytes": 5659,
+   "sha256": "0e5005cbd3038b571926b9c96630b6caa1ebd3482683ded2274ee13ae3fff386"
+  },
+  "playbooks/custom-check-schedules.md": {
+   "bytes": 1854,
+   "sha256": "10926cffd9217341f5fb4a64074c0e1bfe6077c9bc095c0410c38b472b2f7e4c"
+  },
+  "playbooks/data-broker-opt-outs.md": {
+   "bytes": 14573,
+   "sha256": "66d009063e4fca9b07b2462adc5cb836b8b28925bbe640ca3858827c165705f9"
+  },
+  "playbooks/dnc-registry-check.md": {
+   "bytes": 852,
+   "sha256": "073b84e9e28e4b555eda753a0e0d02d17ec669570914b4c41d516cf24208cc44"
+  },
+  "playbooks/do-not-sell-email.md": {
+   "bytes": 4811,
+   "sha256": "d3d9cb237909780ef4425c84d971ffdcdbcf3c868c95e65f165de37f1a49fb2c"
+  },
+  "playbooks/draft-when-ready.md": {
+   "bytes": 1991,
+   "sha256": "a220c9896de9bdd191aff795deab78230bdbbb456b3367ddb1f1b30b50aa5c9e"
+  },
+  "playbooks/elder-gift-card-crypto-pack.md": {
+   "bytes": 6467,
+   "sha256": "01fa3c3fda6b7a8afb15dcdfa9439739669104400bdd534c05167807c6858a80"
+  },
+  "playbooks/email-evidence-log.md": {
+   "bytes": 4176,
+   "sha256": "de1a0022ac6a4627b30aa47ac45e2fb4a51f1047be2f05f78582ab058980a858"
+  },
+  "playbooks/email-getting-started.md": {
+   "bytes": 12297,
+   "sha256": "c558e7a3f15452ad718af393d3e316984d497834a0c75b262b91b758d3cd56f0"
+  },
+  "playbooks/email-paste-verdict.md": {
+   "bytes": 21014,
+   "sha256": "b6c244c92a978a2d967ec219c6e8019c4a15ae23322d4921e54f2097b006b243"
+  },
+  "playbooks/email-report-receipts.md": {
+   "bytes": 3644,
+   "sha256": "7ca5f32c38c44ff4fe5ea0bc049330679eec3b95c7333839d199dfc63653fa8c"
+  },
+  "playbooks/email-setup-first.md": {
+   "bytes": 6722,
+   "sha256": "267c28d7ca2fa24cfca2a271de3676dfceba33ad662ca650479281e7f135ad2c"
+  },
+  "playbooks/enforced-unsub-recheck.md": {
+   "bytes": 6511,
+   "sha256": "3edbde50b977ab78a316a0a43007b8e1f078ba01d33dbe1f0154e66f50c92d15"
+  },
+  "playbooks/fortress-bug-report.md": {
+   "bytes": 4187,
+   "sha256": "da367611e61b3ff33fc932b551bd987c4a7e97bdeac073806122ee1199fb7a8f"
+  },
+  "playbooks/fortress-fraud-watch.md": {
+   "bytes": 3728,
+   "sha256": "d01ed78b4cc21093a0191c8116ba7f2db85618877cf4b5f12ca352de14699d51"
+  },
+  "playbooks/fortress-marketplace-scout.md": {
+   "bytes": 3110,
+   "sha256": "58c7bbf8210d3b1c10eff8245671feb61a4520f944de1d6a6c5f8df6fb9f191e"
+  },
+  "playbooks/fortress-pair-handshake.md": {
+   "bytes": 6424,
+   "sha256": "9f9f6658ca3641f4ed29e30efa49c2fcf06eaf9d6b781cf6f34688d48c6d9203"
+  },
+  "playbooks/fortress-update-check.md": {
+   "bytes": 6814,
+   "sha256": "5a4d4628dae9a8e8edc576ec1e2f01fef0660ae24d0b3108a661723ec5edaeb0"
+  },
+  "playbooks/fortress-voice.md": {
+   "bytes": 3163,
+   "sha256": "dc82fd6b94e36b4ead317713ad2f49e4a97e2b2492464435f961d20bfc18f9ef"
+  },
+  "playbooks/forward-to-bot-digest.md": {
+   "bytes": 2109,
+   "sha256": "405e19237c69cdbe64f35cab2c3dc10193aedda62e15c546ecda5e9ab791f461"
+  },
+  "playbooks/gmail-mail-harden.md": {
+   "bytes": 10927,
+   "sha256": "9a44153c125bd7c83fb8ef8ade1feebc2d6db9a30b4267c29c4291b0ed3db010"
+  },
+  "playbooks/gmx-webde-mail-harden.md": {
+   "bytes": 2059,
+   "sha256": "7f192ad6c57242d80fbcd9c6161396a26d614eb4ef62aa83577fc0b13758cfe6"
+  },
+  "playbooks/hibp-breach-watch.md": {
+   "bytes": 4514,
+   "sha256": "329c12b26e8af368dfe679842407a643fe4a22793f7912538a244d6109ae0803"
+  },
+  "playbooks/index.json": {
+   "bytes": 31350,
+   "sha256": "efac824b0744482ccbca898ade99a96c53aed7c03aa41bb4646a0084cfd6d7ea"
+  },
+  "playbooks/international-privacy-packs.md": {
+   "bytes": 16323,
+   "sha256": "65fac72dccd14ac000e20068c70e678cd8ced485d8396b92f7c8e44a5e8fe943"
+  },
+  "playbooks/junk-mail-lane.md": {
+   "bytes": 10636,
+   "sha256": "d7e62664f2dfa39b72fcbf7d5c0433f376d8c4a1ce0488a6a033f1a14c92a1ba"
+  },
+  "playbooks/link-confirmation-coach.md": {
+   "bytes": 4520,
+   "sha256": "1a9cbc17e55da09c7ad48f0c83b388e7dac872ab2966eb4724d90faa3c002968"
+  },
+  "playbooks/mailbox-takeover-check.md": {
+   "bytes": 3618,
+   "sha256": "5a3ead8b803be907253119fc7a6f40c9d95ed3d6da2ad45c5afd4793551aee6c"
+  },
+  "playbooks/multi-number-household.md": {
+   "bytes": 1762,
+   "sha256": "ff96878cd06a07efecee44992f101063ba1fc97144ba102a8b337d6b16eb472e"
+  },
+  "playbooks/new-sender-screener.md": {
+   "bytes": 3641,
+   "sha256": "48dd978630927b079a136e05dea5ef84d04704ba30e9f6cdba1570c90389da7d"
+  },
+  "playbooks/newsletter-rollups.md": {
+   "bytes": 3634,
+   "sha256": "421712226140d8bc2756b3df7075789c18cf2e844dc4c546f4e30bfb95ad4fb2"
+  },
+  "playbooks/opt-in-inbox-label-scan.md": {
+   "bytes": 14496,
+   "sha256": "cc02634823a2bf31f6a1d34d71e6cc666981709cb33ea57892fd86212fe24ad2"
+  },
+  "playbooks/opt-in-x-dm-verdict.md": {
+   "bytes": 4492,
+   "sha256": "3ad9d99dbee5674259e3cafe58c202fc73eed085407846c4fcf9875e438b8060"
+  },
+  "playbooks/outlook-mail-harden.md": {
+   "bytes": 4209,
+   "sha256": "36a635a57b95e1b21ea16fcbdacfcfda27be740534409e37b1860e0621b5f2df"
+  },
+  "playbooks/phish-takedown-drafts.md": {
+   "bytes": 1335,
+   "sha256": "e524fbf6d840ddbcf712a6244512ed8de49cb0867059bc23b071793acd0cfdc9"
+  },
+  "playbooks/phone-getting-started.md": {
+   "bytes": 9894,
+   "sha256": "912928c5e91fa7047e69994d5bc659c9da06353c26ab44f8f4ec8d62b4317625"
+  },
+  "playbooks/phone-setup-first.md": {
+   "bytes": 14536,
+   "sha256": "5ceb51ff33db80c9b7e4f2ef0f32a32a4b2061ec2db15e048f0755f1b20a2682"
+  },
+  "playbooks/political-spam-handling.md": {
+   "bytes": 1579,
+   "sha256": "e8aaa4e968fa970ba3a85973191f2c087967de2fea739ab60ed7764d450c3876"
+  },
+  "playbooks/privacy-os-watcher.md": {
+   "bytes": 8300,
+   "sha256": "f701636d1bdac9bc8f7eebf30e06e93ba6334e726d5ebb91e1ba6abc4e694931"
+  },
+  "playbooks/protected-senders.md": {
+   "bytes": 5202,
+   "sha256": "6f11dbeafc205199f8086d802e090479b8ed7f87a5240e6de766f2bacf511fe0"
+  },
+  "playbooks/proton-mail-harden.md": {
+   "bytes": 2053,
+   "sha256": "cdbc2023bdaa2f35ea4efe7d3d53d4cbb24d2459aa379e02e357877ed0f2de54"
+  },
+  "playbooks/regional-mail-harden.md": {
+   "bytes": 3448,
+   "sha256": "7332db525a945215d08a618af66437846faf3bf378dc5a013c19aa3e7c433ea0"
+  },
+  "playbooks/regulator-scam-packet.md": {
+   "bytes": 3705,
+   "sha256": "2f59a52f8853ffca94b48b4668b6cea800d7a91582aba05f753849adeac60c9f"
+  },
+  "playbooks/reverse-number-identification.md": {
+   "bytes": 4822,
+   "sha256": "bbb1ecf07ca531f71801cd47016780cd069dbb6e622428ff12777e4be9e7a046"
+  },
+  "playbooks/safe-attachment-qr-inspect.md": {
+   "bytes": 2901,
+   "sha256": "c2d424462fd0fc1837faad879c60cc98ec5a63c80b8e5bd3abd49ffda37cbd0b"
+  },
+  "playbooks/settlement-breach-claims.md": {
+   "bytes": 1526,
+   "sha256": "f86b64badedb5bc14f8e10d05021308fefae7a5e4a754930f5bb762342650574"
+  },
+  "playbooks/signup-alias-watch.md": {
+   "bytes": 4808,
+   "sha256": "a4cb0793f52114fa716de51fbd547648d9ae7317cd23e371be6154d516af0973"
+  },
+  "playbooks/spam-evidence-log.md": {
+   "bytes": 7992,
+   "sha256": "990c7068ee4606510f24c561ee91c126295c779c0b860e03afcb6903083cdefb"
+  },
+  "playbooks/state-tcpa-handling.md": {
+   "bytes": 4249,
+   "sha256": "3974c4fc0ad14857cd767eb1735e894d8fd8647fcfff3f82cdb0d27b0e439c21"
+  },
+  "playbooks/stop-revocation-tracking.md": {
+   "bytes": 4768,
+   "sha256": "535ac6f91d03dc06c91f10b41826e824a3d5075bafb7c8e1c16d8808576cef93"
+  },
+  "playbooks/tcpa-demand-letter.md": {
+   "bytes": 1850,
+   "sha256": "8ab894e3e6624b8a098e6b05886bafe69027501842713f2e6c39c8e1d6080a77"
+  },
+  "playbooks/tcpa-settlement-watch.md": {
+   "bytes": 930,
+   "sha256": "c6a1fa1f454dcaa592191d21ec92a868f6d5d8046277cb58b272fed6f8d892cd"
+  },
+  "playbooks/voice-clone-and-ai-scam-defense.md": {
+   "bytes": 5104,
+   "sha256": "1a4eb1d317d1ea7374babf359d4fb22d0b6a637f6ba14adca49b29cf5d45261d"
+  },
+  "playbooks/who-sold-my-address.md": {
+   "bytes": 2085,
+   "sha256": "a16ef73ee3d1795697ec6512a8910696b6a32607e2253b20a43c430029e22a17"
+  },
+  "playbooks/yahoo-mail-harden.md": {
+   "bytes": 2128,
+   "sha256": "46e0faa1bae034b3adf8f772c5deeb706ddfad3bde11f3a2026b071451fc77f2"
+  },
+  "playbooks/zoho-mail-harden.md": {
+   "bytes": 953,
+   "sha256": "87999ac37f39bcccabf30f824876be0969d839a83195fadfd22592b43578f1a0"
+  }
+ },
+ "format": "fortress-bundle/1",
+ "sources": {
+  "email_candidate_sha256": "dc3614e5253111c7efe3fa6e46cd2570d59cfc6612ab8d53f771f5bf64064dd7",
+  "lane_map_sha256": "771f804dc681f27ea405f85b2fc1d5c4d1c819fbff41244e7d26049d04925aab",
+  "phone_candidate_sha256": "acc0715be260f969029e880087a5789309e97184eca507e317601903489980f7"
+ },
+ "version": "1.2.0"
+}
